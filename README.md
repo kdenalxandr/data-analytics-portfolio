@@ -8,29 +8,29 @@ The data found in these queries have been mined from basketball-reference.com
 ### What's Included
 
 ### 1. Individual Player Stats Clean
---Creates a temporary table to count how many times a players name shows up under a different team
---Filters team members who played on multiple teams during a season. This keeps their 2TM total stats for the season row, eliminating duplicate rows for those players. 
--- Joins the two tables and orders them by player rank for that season.
+-Creates a temporary table to count how many times a players name shows up under a different team
+-Filters team members who played on multiple teams during a season. This keeps their 2TM total stats for the season row, eliminating duplicate rows for those players. 
+- Joins the two tables and orders them by player rank for that season.
 
 ### 2. Team Performance Ranking
---This create a clean data set table for the 2023-2024 nba season, eliminating the last row from basketball reference where the rank is null
--- Order by used to order th tables by their season ranking.
--- This step was also completed for the 2022-2023 nba season (not shown)
+- This create a clean data set table for the 2023-2024 nba season, eliminating the last row from basketball reference where the rank is null
+- Order by used to order th tables by their season ranking.
+- This step was also completed for the 2022-2023 nba season (not shown)
 
-###3. Average Assists Change
--- Calcucates the point change in average assists per team.
--- Highlights which temas improved or declined in ball movement and playmaking.
---The Cleaveland Cavilliars improved the most by a 2.2 average difference
+### 3. Average Assists Change
+- Calcucates the point change in average assists per team.
+- Highlights which temas improved or declined in ball movement and playmaking.
+  *The Cleaveland Cavilliars improved the most by a 2.2 average difference
 
-###4. Average Total Rebounds Change
---- Calculates the point change in average total rebounds per team.
---- Reveals which teams had an increase in dominating the glass 
--- *Found That the Toronto Raptors had a 4.6 point change in their rebounds.
+### 4. Average Total Rebounds Change
+- Calculates the point change in average total rebounds per team.
+- Reveals which teams had an increase in dominating the glass 
+   *Found That the Toronto Raptors had a 4.6 point change in their rebounds.
 
-###5. Average Three Point percentage
--- Calculates the point change in average three point percentage made per team
--- Useful for analyzing offensive trends and shot selection shifts 
---- The Los Angeles Lakers had a .031 percent change in their three shot percentage
+### 5. Average Three Point percentage
+- Calculates the point change in average three point percentage made per team
+- Useful for analyzing offensive trends and shot selection shifts 
+  *The Los Angeles Lakers had a .031 percent change in their three shot percentage
 
 ### Tools used
 -**Google Big Query** for SQL queries
