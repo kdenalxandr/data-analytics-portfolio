@@ -27,12 +27,12 @@ At this stage, the foucs has been on setting up the analytical foundation by pra
 - Reveals which teams had an increase in dominating the glass 
 - *Found that the Toronto Raptors had a 4.6 point increase in their total rebounds.
 
-### 5. Average Three Point percentage
+### 5. Average Three Point Percentage
 - Calculates the point change in average three point percentage made per team
 - Useful for analyzing offensive trends and shot selection shifts 
 -  *The Los Angeles Lakers had a .031 percent change in their three shot percentage
 
-### Tools used
+### Tools Used
 - **Google Big Query** for SQL queries
 - **Basketball Reference** for data source
 - **Google Sheets** for converting data from basketball reference into a .csv file for query upload
