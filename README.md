@@ -1,6 +1,6 @@
 # data-analytics-portfolio
-This repository contains a collection of basketball-related SQL queries written in BigQuery. These queries reflect my interest in sports analytics and demonstrate my foundationa skills in working with real-world datasets. These queries showcase the change in assists, total rebounds, and three point percentage from the 2022-2023 and 2023-2024 season. The goal was to identify which teams showed the greatest improvement in these areas. 
-At this stage, the foucs has been on setting up the analytical foundation. Further analysis, including deeper player level breakdowns and potential causes for team-level performance changes, are still in progress and will be added soon. This project was started before the completion of the 2024-2025 basketball season, that is why we are focused on these two completed seasons. 
+This repository contains a collection of basketball-related SQL queries written in BigQuery. These queries reflect my interest in sports analytics and demonstrate my foundational skills in working with real-world datasets. These queries showcase the change in assists, total rebounds, and three point percentage from the 2022-2023 and 2023-2024 season. The goal was to identify which teams showed the greatest improvement in these areas. 
+At this stage, the foucs has been on setting up the analytical foundation by practing SQL queries. Further analysis, including deeper player level breakdowns and potential causes for team-level performance changes, are still in progress and will be added soon. This project was started before the completion of the 2024-2025 basketball season, that is why we are focused on these two completed seasons. 
 
  
 ---
