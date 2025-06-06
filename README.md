@@ -20,7 +20,7 @@ The data found in these queries have been mined from basketball-reference.com
 ### 3. Average Assists Change
 - Calcucates the point change in average assists per team.
 - Highlights which temas improved or declined in ball movement and playmaking.
-- *The Cleaveland Cavilliars improved the most by a 2.2 average difference
+- *The Cleaveland Cavaliers improved the most by a 2.2 average difference
 
 ### 4. Average Total Rebounds Change
 - Calculates the point change in average total rebounds per team.
