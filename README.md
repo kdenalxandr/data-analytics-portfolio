@@ -14,7 +14,7 @@ At this stage, the foucs has been on setting up the analytical foundation by pra
 
 ### 2. Team Performance Ranking
 - This create a clean data set table for the 2023-2024 nba season, eliminating the last row from basketball reference where the rank is null
-- Order by used to order the tables by their season ranking.
+- Ordered by the team's season ranking.
 - This step was also completed for the 2022-2023 nba season (not shown)
 
 ### 3. Average Assists Change
