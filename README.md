@@ -33,10 +33,10 @@ At this stage, the foucs has been on setting up the analytical foundation by pra
 -  *The Los Angeles Lakers had a .031 percent change in their three shot percentage
 
 ### Tools used
--**Google Big Query** for SQL queries
--**Basketball Reference** for data source
--**Google Sheets** for converting data from basketball reference into a .csv file for query upload
--**GitHub** for version control and portfolio presentation
+- **Google Big Query** for SQL queries
+- **Basketball Reference** for data source
+- **Google Sheets** for converting data from basketball reference into a .csv file for query upload
+- **GitHub** for version control and portfolio presentation
 ---
 
 ## Purpose
