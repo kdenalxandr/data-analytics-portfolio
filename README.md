@@ -2,7 +2,7 @@
 This repository contains a collection of basketball-related SQL queries written in BigQuery. These queries reflect my interest in sports analytics and demonstrate my foundationa skills in working with real-world datasets. These queries showcase the change in assists, total rebounds, and 3 point field goals from the 2022-2023 and 2023-2024 season. The goal was to identify which teams showed the greatest improvement in these areas. 
 At this stage, the foucs has been on setting up the analytical foundation. Further analysis, including deeper player level breakdowns and potential causes for team-level performance changes, are still in progress and will be added soon. This project was started before the completion of the 2024-2025 basketball season, that is why we are focused on these two completed seasons. 
 
-The data found in these queries have been mined from basketball-reference.com 
+ 
 ---
 
 ### What's Included
@@ -39,5 +39,5 @@ The data found in these queries have been mined from basketball-reference.com
 -**GitHub** for version control and portfolio presentation
 ---
 
-##Purpose
+## Purpose
 This portfolio was created to showcase my foundational skills using SQL and curosity for team performance from one season to the next. This showcases my ability to use simple queries and work with structured datasets. This portfolio also showcases my interest in pursing an analyst role, particularely where real-world data meets strategy and performance trends.
