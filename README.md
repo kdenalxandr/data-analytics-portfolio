@@ -13,7 +13,7 @@ At this stage, the focus has been on setting up the analytical foundation by pra
 - Joins the two tables and orders them by player rank for that season.
 
 ### 2. Team Performance Ranking
-- This create a clean data set table for the 2023-2024 nba season, eliminating the last row from basketball reference where the rank is null
+- This create a clean data set table for the 2023-2024 nba season, eliminating the Team Totals Row where the rank is null
 - Ordered by the team's season ranking.
 - This step was also completed for the 2022-2023 nba season (not shown)
 
