@@ -1,4 +1,4 @@
---Creating a table that counts how many players show up on more than one team (thus creating duplicate rows)
+--Creating a temporary table that counts how many players show up on more than one team (thus creating duplicate rows)
 CREATE TABLE `vernal-reality-440716-s9.nba_analysis.player_totals_23_clean` AS
 WITH PlayerCounts AS(
   SELECT Player,
