@@ -8,35 +8,35 @@ At this stage, the focus has been on setting up the analytical foundation by pra
 ### What's Included
 
 ### 1. Individual Player Stats Clean
-- Creates a temporary table to count how many times a players name shows up under a different team
-- Filters team members who played on multiple teams during a season. This keeps their 2TM total stats for the season row, eliminating duplicate rows for those players. 
+- Creates a temporary table to count how many times a player shows up under more than one team.
+- Filters team members who played on multiple teams during a season. This keeps their 2TM (total stats for the season) row, eliminating all other duplicate rows for these players. 
 - Joins the two tables and orders them by player rank for that season.
 
-### 2. Team Performance Ranking
-- This create a clean data set table for the 2023-2024 nba season, eliminating the Team Totals row where the rank is null
+### 2. Team Performance Ranking 
+- This creates a clean data set table for the 2023-2024 nba season, eliminating the Team Totals row where the rank is null.
 - Ordered by the team's season ranking.
-- This step was also completed for the 2022-2023 nba season (not shown)
+- This step was also completed for the 2022-2023 nba season (not shown).
 
 ### 3. Average Assists Change
 - Calcucates the point change in average assists per team.
 - Highlights which teamss improved or declined in ball movement and playmaking.
-- The Cleaveland Cavaliers improved the most by a 2.2 average difference
+- The Cleaveland Cavaliers improved the most by a 2.2 average difference.
 
 ### 4. Average Total Rebounds Change
 - Calculates the point change in average total rebounds per team.
-- Reveals which teams had an increase in dominating the glass 
+- Reveals which teams had an increase in dominating the glass.
 - Found that the Toronto Raptors had a 4.6 point increase in their total rebounds.
 
 ### 5. Average Three Point Percentage
-- Calculates the point change in average three point percentage made per team
-- Useful for analyzing offensive trends and shot selection shifts 
-- The Los Angeles Lakers had a .031 percent change in their three shot percentage
+- Calculates the point change in average three point percentage made per team.
+- Useful for analyzing offensive trends and shot selection shifts.
+- The Los Angeles Lakers had a .031 percent change in their three shot percentage.
 
 ### Tools Used
-- **Google Big Query** for SQL queries
-- **Basketball Reference** for data source
-- **Google Sheets** for converting data from basketball reference into a .csv file for query upload
-- **GitHub** for version control and portfolio presentation
+- **Google Big Query** for SQL queries.
+- **Basketball Reference** for data source.
+- **Google Sheets** for converting data from basketball reference into a .csv file for query upload.
+- **GitHub** for version control and portfolio presentation.
 ---
 
 ## Purpose
