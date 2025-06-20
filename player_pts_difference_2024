@@ -1,0 +1,14 @@
+-- By creating a temporary table, I was able to compare the top 10 players for the 2023-2024 Season points change.
+With top_10_2024 AS (
+  SELECT Player, PTS, Rk
+  FROM `vernal-reality-440716-s9.nba_analysis.player_totals_24_clean`
+  WHERE Rk <=10
+)
+SELECT a.Player,
+a.PTS AS total_points_24,
+b.PTS as total_points_23,
+a.PTS - b.PTS as PTS_change
+FROM top_10_2024 a
+JOIN `vernal-reality-440716-s9.nba_analysis.player_totals_23_clean` b
+ON a.Player = b.Player
+ORDER BY PTS_change DESC;
